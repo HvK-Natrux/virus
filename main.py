@@ -22,7 +22,7 @@ def main():
         # Position initiale
         x, y = root.winfo_x() + 50, root.winfo_y() + 50
         
-        for i in range(2):
+        for i in range(100):
             # Créer une fenêtre pour chaque message
             msg_window = tk.Toplevel(root)
             msg_window.title(f"Message {i+1}/100")
